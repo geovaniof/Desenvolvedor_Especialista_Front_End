@@ -1,0 +1,31 @@
+div, p{
+    background-color: blue;
+}
+
+span{
+    background-color: green;
+    width: 500px;
+    display: inline-block;
+}
+
+body{
+    height: 500px;
+}
+
+.caixa{
+    background-color: aqua;
+    display: inline-block;
+    padding: 10px;
+    border: 10px solid green;
+    margin: 30px;
+    /*
+    padding: 10px 50px 10px 50px;
+    --igual abaixo
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    */
+    /*width: 50%;
+    height: 50%;*/
+}
