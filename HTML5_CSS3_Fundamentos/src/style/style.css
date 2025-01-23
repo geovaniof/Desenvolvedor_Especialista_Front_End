@@ -1,0 +1,40 @@
+h1 {
+    color:green;
+}
+
+.titulo{
+    color:rgb(0, 128, 117);
+}
+
+#titulo{
+    color:brown;
+}
+
+h2 {
+    color:blue;
+}
+
+/*
+Início section de Contatos
+#titulo2{
+    color:rgb(0, 128, 117);  
+}
+*/
+
+/*
+Fim section de Contatos
+*/
+
+.link{
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: red;
+    background-color: black;
+}
+
+.link:visited{
+    color:green;
+}

@@ -1,0 +1,15 @@
+h1{
+    font-size: 40px;
+    padding: 0;
+}
+
+body{
+    font-size: 30px;
+}
+
+.caixa{
+    background-color: blueviolet;
+    height: 50vh;
+    font-size: 20px;
+    width: 50vw;
+}
