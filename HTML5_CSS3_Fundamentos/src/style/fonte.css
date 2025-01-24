@@ -1,0 +1,17 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+/*1 rem unidade de medida relativa ao body, que geralmente equivale a 16px, mas depende do navegador*/
+
+h1 {
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+}
+
+p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 120%;
+}
