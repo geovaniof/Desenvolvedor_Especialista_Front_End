@@ -1,0 +1,22 @@
+.secao-texto{
+    color: brown;
+    background-color: white;
+    border: solid 1px black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+h2{
+    color: green;
+    background-color: aliceblue;
+}
+
+p{
+    border: inherit;
+    color: unset;
+    font-size: initial;
+}
+
+button{
+    all: unset;
+}

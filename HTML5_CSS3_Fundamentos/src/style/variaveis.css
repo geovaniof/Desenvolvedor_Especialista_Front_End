@@ -1,0 +1,16 @@
+:root {
+  --cor-principal: red;
+  --cor-fundo: black;
+  --spacing-1: 15px;
+}
+
+.texto1{
+    color: var(--cor-principal);
+    background-color: var(--cor-fundo);
+    margin-bottom: var(--spacing-1);
+}
+
+.texto2{
+    color: var(--cor-principal);
+    margin-top: var(--spacing-1);
+}
