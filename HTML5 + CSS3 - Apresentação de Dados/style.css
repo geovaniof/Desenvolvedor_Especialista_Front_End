@@ -1,0 +1,23 @@
+/* none, decimal, lower-roman, upper-roman, lower-latin, upper-latin, lower-greek*/
+.lista{
+    list-style: decimal;
+}
+
+/*none, discm circle, square, imagem (url)*/
+.lista-nao-ordenada{
+    list-style: url('img/circle.png');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.lista-menu{
+    list-style: none; 
+    background-color: brown;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+}
