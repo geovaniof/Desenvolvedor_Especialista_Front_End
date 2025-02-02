@@ -1,23 +1,21 @@
-/* none, decimal, lower-roman, upper-roman, lower-latin, upper-latin, lower-greek*/
-.lista{
-    list-style: decimal;
+table, td, th{
+    /*solid, pixel */
+    border : solid 3px white;
+    border-collapse: collapse; /*Juntas as bordas que se encontram para se conectem*/
 }
 
-/*none, discm circle, square, imagem (url)*/
-.lista-nao-ordenada{
-    list-style: url('img/circle.png');
+td, th{
+    width: 150px;
+    text-align: center;
 }
 
-body{
-    margin: 0;
-    padding: 0;
+th{
+    background-color: rgb(91, 208, 208);
+    font-size: 1.5rem;
+    font-weight: 100;
 }
 
-.lista-menu{
-    list-style: none; 
-    background-color: brown;
-    margin: 0;
-    padding: 15px;
-    display: flex;
-    gap: 20px;
+td{
+    background-color: rgb(208, 208, 208);
+    font-size: 1.2rem;
 }
