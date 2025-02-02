@@ -1,0 +1,36 @@
+table{
+    text-align: left;
+    background-color: while;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;  
+}
+
+
+thead th{
+    border-bottom: 2px solid black;  
+    padding-right: 80px;
+}
+
+tbody tr{
+    color:gray;
+    border-bottom: 2px solid grey;  
+}
+
+tbody th{
+    padding-right: 20px;
+}
+
+tbody td{
+    padding: 10px 10px 10px 0;
+}
+
+td:first-child {
+    font-weight: bold;
+    color:black;
+}
+
+tbody tr:hover {
+    background-color: silver;
+    cursor: pointer;
+}
