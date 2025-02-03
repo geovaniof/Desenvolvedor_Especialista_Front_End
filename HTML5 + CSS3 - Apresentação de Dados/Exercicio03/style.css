@@ -1,0 +1,57 @@
+table{
+    width: 100%;
+}
+
+table, td, th{
+    border-collapse: collapse;
+    border: 1px solid #bababa;  
+    text-align: center;
+    color: gray;
+}
+
+td, th{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+
+thead th:first-child{
+    color: gray;
+}
+
+thead tr:nth-child(2){
+    font-size: 30px;
+    color:white;
+    font-weight: bold;
+}
+
+.price{
+    font-size: 3rem;
+    color: white;
+}
+
+
+.basico{
+    background-color: #7dcbff;
+}
+
+.padrao{
+    background-color: #3737ef;
+}
+
+.avancado{
+    background-color: #9f06cd;
+}
+
+button{
+    padding: 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+
+}
+
+button:hover {
+    opacity: .8;
+}
